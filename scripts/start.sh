@@ -19,5 +19,6 @@ else
 fi
 N8N_AVAILABLE_BINARY_DATA_MODES=filesystem
 N8N_LOG_LEVEL=silent
+NPM_CONFIG_LOGLEVEL=silent
 npm install @spurt.dev/n8n-nodes-clickhouse
 NODE_OPTIONS="--max-old-space-size=4096" npx n8n
