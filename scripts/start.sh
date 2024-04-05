@@ -18,4 +18,4 @@ else
   exit 1
 fi
 
-npx n8n
+NODE_OPTIONS="--max-old-space-size=4096" npx n8n
