@@ -1,6 +1,6 @@
 {
   "name": "n8n",
-  "version": "0.135.1",
+  "version": "1.33.1",
   "description": "Deploy N8N on scalingo",
   "main": "index.js",
   "repository": "git@github.com:Scalingo/n8n-scalingo.git",
@@ -10,10 +10,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "n8n": "*",
+    "n8n": "1.33.1",
     "@spurt.dev/n8n-nodes-clickhouse": "*"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.10",
+    "pnpm": ">=8.14"
   }
 }
