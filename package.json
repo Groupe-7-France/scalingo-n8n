@@ -10,7 +10,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "n8n": "0.135.1"
+    "n8n": "0.135.1",
+    "@spurt.dev/n8n-nodes-clickhouse": "*"
   },
   "engines": {
     "node": ">=14.0.0"
