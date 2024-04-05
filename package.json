@@ -14,7 +14,7 @@
     "@spurt.dev/n8n-nodes-clickhouse": "*"
   },
   "engines": {
-    "node": ">=18.10",
+    "node": "18.10",
     "pnpm": ">=8.14"
   }
 }
